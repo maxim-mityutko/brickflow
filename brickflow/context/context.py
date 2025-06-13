@@ -8,7 +8,8 @@ import logging
 import pickle
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional, Any, Union, Callable, Hashable, Dict, List, TypeVar
+from collections.abc import Hashable
+from typing import Optional, Any, Union, Callable, Dict, List, TypeVar
 
 from decouple import config
 
