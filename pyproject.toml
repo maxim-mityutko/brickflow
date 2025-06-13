@@ -118,6 +118,9 @@ follow_imports = "skip"
 [tool.pylint.main]
 fail-under = 9.0
 
+[tool.pylint.format]
+max-line-length = 120
+ignore-long-lines = "^\\s*(# )?<?https?://\\S+>?$"
 
 [tool.pylint."messages control"]
 disable = ["too-many-lines", "too-many-positional-arguments"]
